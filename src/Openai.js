@@ -32,7 +32,7 @@ export async function sendMsgToOpenAI(message) {
 }*/
 const OpenAI = require('openai');
 
-const openai = new OpenAI({ apiKey: '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' , dangerouslyAllowBrowser: true});
+const openai = new OpenAI({ apiKey: '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' , dangerouslyAllowBrowser: true});
 
 
 export async function sendMsgToOpenAI(message) {
